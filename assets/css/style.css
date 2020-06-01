@@ -1,0 +1,57 @@
+body {
+      font-family: "Roboto";
+}
+
+nav {
+      z-index: 1;
+}
+
+nav .navbar-brand {
+      color: #00ffe9;
+}
+
+nav .active a {
+      border-bottom: 2px #00ffe9 solid;
+}
+
+nav a:hover {
+      border-bottom: 2px #00ffe9 solid;
+}
+
+header .hero {
+      top: -58px;
+      position: relative;
+      text-align: center;
+      padding: 40vh 0;
+      height: 100vh;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+      background-image: url(../img/header.jpeg), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+      background-blend-mode: overlay;
+      color: white;
+}
+
+header .server {
+      font-weight: 700;
+      font-size: 100px;
+}
+
+header p {
+      font-family: "Quicksand";
+      font-size: 18px;
+      font-weight: 300;
+}
+
+header .blue {
+      color: #00ffe9;
+}
+
+header .scroll-bot {
+      margin-top: 15vh;
+}
+
+.btn-scroll-bot {
+      font-size: 30px;
+      cursor: pointer;
+}
